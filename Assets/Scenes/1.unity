@@ -10621,7 +10621,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79e99b583b1e7734486214a64c1cd47c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextScore: {fileID: 1679325929}
+  m_TextScore: {fileID: 1679325929}
+  m_BreakerReadyPrompt: {fileID: 1690109849}
+  m_Bullet: {fileID: 6598179659737943952, guid: 7706d935f5036344081b0dfab96a8618, type: 3}
+  m_CDmask: {fileID: 2138230136}
+  m_Player: {fileID: 1517101611}
 --- !u!82 &519420034
 AudioSource:
   m_ObjectHideFlags: 0
@@ -34218,9 +34222,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LooseUI: {fileID: 1870245355}
   m_WinUI: {fileID: 1964185913}
-  m_Bullet: {fileID: 6598179659737943952, guid: 7706d935f5036344081b0dfab96a8618, type: 3}
-  m_CDmask: {fileID: 2138230136}
-  m_BreakerReadyPrompt: {fileID: 1690109849}
 --- !u!50 &1517101615
 Rigidbody2D:
   serializedVersion: 4
