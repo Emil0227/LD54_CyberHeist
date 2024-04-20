@@ -22,6 +22,7 @@ public class ProgressionBar : MonoBehaviour
     void Update()
     {
         m_LevelProgress = (m_Player.transform.position.y - m_PlayerInitialPositionY) / m_LevelLength;
-        gameObject.transform.localScale = new Vector3(m_VFullProgress.x * m_LevelProgress, m_VFullProgress.y, m_VFullProgress.z);
+        gameObject.transform.localScale = new Vector3(m_VFullProgress.x * m_LevelProgress, 
+            m_VFullProgress.y, m_VFullProgress.z);
     }
 }
